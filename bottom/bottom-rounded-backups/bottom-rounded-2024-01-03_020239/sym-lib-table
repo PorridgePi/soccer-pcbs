@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RCJ")(type "KiCad")(uri "/Users/porridge/Git/RCJ-Soccer-Open-2024/pcbs/symbols/STM32FE411CEU6_Pico.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "components")(type "KiCad")(uri "/Users/porridge/Git/RCJ-Soccer-Open-2024/pcbs/components.pretty")(options "")(descr ""))
+)

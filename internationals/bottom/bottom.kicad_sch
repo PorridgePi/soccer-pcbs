@@ -7,7 +7,7 @@
 	(title_block
 		(title "Bottom Plate")
 		(date "2024-06-08")
-		(rev "1.2.0")
+		(rev "1.2.1")
 		(company "Zhou Yikun & Zachary Ang")
 		(comment 1 "RoboCup Junior Soccer Open 2024")
 	)
@@ -4837,7 +4837,7 @@
 		(uuid "f3c27ecb-15ef-47eb-9766-bbb9ed5ec3cd")
 	)
 	(global_label "Bottom-D2"
-		(shape output)
+		(shape input)
 		(at 254 62.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5585,7 +5585,7 @@
 		)
 	)
 	(global_label "Bottom-D1"
-		(shape output)
+		(shape input)
 		(at 254 59.69 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5959,7 +5959,7 @@
 		)
 	)
 	(global_label "Bottom-D0"
-		(shape output)
+		(shape input)
 		(at 254 57.15 0)
 		(fields_autoplaced yes)
 		(effects

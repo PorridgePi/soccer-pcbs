@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Bottom Plate")
-		(date "2024-06-07")
-		(rev "1.2")
+		(date "2024-06-08")
+		(rev "1.2.0")
 		(company "Zhou Yikun & Zachary Ang")
 		(comment 1 "RoboCup Junior Soccer Open 2024")
 	)

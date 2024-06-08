@@ -7,7 +7,7 @@
 	(title_block
 		(title "Bottom Plate")
 		(date "2024-06-08")
-		(rev "1.3.0")
+		(rev "1.4.0")
 		(company "Zhou Yikun & Zachary Ang")
 		(comment 1 "RoboCup Junior Soccer Open 2024")
 	)
@@ -3667,6 +3667,12 @@
 		(uuid "8a88e52c-5673-4b46-92e7-2e1535198ece")
 	)
 	(junction
+		(at 157.48 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93e189b5-5a82-4851-823f-fd924f6fb3d2")
+	)
+	(junction
 		(at 53.34 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3761,20 +3767,12 @@
 		(uuid "6309451b-d5b4-4a67-8edc-9def337913cc")
 	)
 	(no_connect
-		(at 154.94 31.75)
-		(uuid "c89e7cb4-ac14-4b2f-b387-e903855ea69c")
-	)
-	(no_connect
 		(at 254 101.6)
 		(uuid "c8b76688-2f5c-4e8f-8824-5bca04aa0129")
 	)
 	(no_connect
 		(at 154.94 21.59)
 		(uuid "f09e74f4-a8d2-4ae6-bd7e-66e7089c1058")
-	)
-	(no_connect
-		(at 154.94 46.99)
-		(uuid "fb06118e-35f2-411c-ad54-14eac6235967")
 	)
 	(wire
 		(pts
@@ -4035,6 +4033,16 @@
 			(type default)
 		)
 		(uuid "34ada516-b04e-4e67-8e60-2a4b82c94564")
+	)
+	(wire
+		(pts
+			(xy 154.94 31.75) (xy 157.48 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38551042-f0af-4b31-bfea-032042b831b2")
 	)
 	(wire
 		(pts
@@ -4378,6 +4386,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 31.75) (xy 190.5 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77dc02f2-a136-4cc3-8261-047941e45d26")
+	)
+	(wire
+		(pts
 			(xy 266.7 163.83) (xy 269.24 163.83)
 		)
 		(stroke
@@ -4478,6 +4496,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 46.99) (xy 181.61 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5895d5-98f1-40ce-9026-f585b748f2f5")
+	)
+	(wire
+		(pts
 			(xy 40.64 135.89) (xy 43.18 135.89)
 		)
 		(stroke
@@ -4495,6 +4523,16 @@
 			(type default)
 		)
 		(uuid "8e14f503-7bd4-4017-bf4b-eb5850ba6caf")
+	)
+	(wire
+		(pts
+			(xy 190.5 46.99) (xy 189.23 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909d09b0-e0be-4027-b02e-fdd783f6fd19")
 	)
 	(wire
 		(pts
@@ -4805,6 +4843,16 @@
 			(type default)
 		)
 		(uuid "cd781edb-029f-48f2-ad00-5dc3bce76e69")
+	)
+	(wire
+		(pts
+			(xy 190.5 31.75) (xy 190.5 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d33c4ccc-1372-4ddd-8a1b-010ba90ed4ce")
 	)
 	(wire
 		(pts
@@ -5135,6 +5183,18 @@
 		(uuid 9baf9547-5289-43d5-9aee-8a29ff16dce4)
 	)
 	(rectangle
+		(start 177.8 30.48)
+		(end 191.77 49.53)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d3973140-78fd-4b8f-887e-abc9292a6d7e)
+	)
+	(rectangle
 		(start 241.3 12.7)
 		(end 284.48 44.45)
 		(stroke
@@ -5235,6 +5295,16 @@
 			)
 		)
 		(uuid "f3c27ecb-15ef-47eb-9766-bbb9ed5ec3cd")
+	)
+	(text "Pull-up\nresistor\nto prevent\nESP32 from\nresetting"
+		(exclude_from_sim no)
+		(at 184.15 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "692757c0-558c-4e16-84b8-9e80c810938b")
 	)
 	(global_label "Bottom-D2"
 		(shape input)
@@ -6441,6 +6511,71 @@
 			(project "bottom"
 				(path "/0df53960-77ed-48ae-9914-15d62b01c54c"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 157.48 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "081886be-aad3-47ba-ac32-96efd1978e63")
+		(property "Reference" "#FLG03"
+			(at 157.48 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 163.83 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 157.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd65a2ca-1df1-4610-82fa-1d7f3e7db60c")
+		)
+		(instances
+			(project "bottom"
+				(path "/0df53960-77ed-48ae-9914-15d62b01c54c"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -7999,6 +8134,73 @@
 			(project "bottom"
 				(path "/0df53960-77ed-48ae-9914-15d62b01c54c"
 					(reference "L10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 185.42 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39b24124-739e-4fd1-a69b-d6d383687893")
+		(property "Reference" "R14"
+			(at 184.15 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 187.96 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 185.42 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4cda2992-0af3-4b68-827e-110ef42cd88f")
+		)
+		(pin "1"
+			(uuid "5404f382-be46-4565-9fdd-0ac92e5f97fc")
+		)
+		(instances
+			(project "bottom"
+				(path "/0df53960-77ed-48ae-9914-15d62b01c54c"
+					(reference "R14")
 					(unit 1)
 				)
 			)

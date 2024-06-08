@@ -7,7 +7,7 @@
 	(title_block
 		(title "Top Plate")
 		(date "2024-06-08")
-		(rev "1.2.0")
+		(rev "1.2.1")
 		(company "Zhou Yikun & Zachary Ang")
 		(comment 1 "RoboCup Junior Soccer Open 2024")
 	)
@@ -8256,7 +8256,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 118.11 26.67 0)
 			(effects
 				(font

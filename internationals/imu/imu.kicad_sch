@@ -7,7 +7,7 @@
 	(title_block
 		(title "IMU Plate")
 		(date "2024-06-09")
-		(rev "1.0.0")
+		(rev "1.1.0")
 		(company "Zhou Yikun & Zachary Ang")
 		(comment 1 "RoboCup Junior Soccer Open 2024")
 	)
@@ -1355,6 +1355,151 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -1820,6 +1965,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 40.64) (xy 72.39 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "070cd9ef-8089-40e0-86c1-ca9de3599a99")
+	)
+	(wire
+		(pts
 			(xy 69.85 82.55) (xy 72.39 82.55)
 		)
 		(stroke
@@ -1837,16 +1992,6 @@
 			(type default)
 		)
 		(uuid "1c22eb00-f4b0-4cff-b097-115e145dd7da")
-	)
-	(wire
-		(pts
-			(xy 72.39 31.75) (xy 87.63 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f6cc1b0-e9d0-48cc-9928-ab3f534fd415")
 	)
 	(wire
 		(pts
@@ -1870,16 +2015,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 36.83) (xy 90.17 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fe0c6b3-b2d6-4ae2-afea-5e409d1158b0")
-	)
-	(wire
-		(pts
 			(xy 266.7 163.83) (xy 266.7 161.29)
 		)
 		(stroke
@@ -1887,16 +2022,6 @@
 			(type default)
 		)
 		(uuid "3b279294-e6aa-47b6-b18d-431383634655")
-	)
-	(wire
-		(pts
-			(xy 90.17 41.91) (xy 90.17 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cb862f6-e390-4290-8945-58bd7b4040ca")
 	)
 	(wire
 		(pts
@@ -1937,6 +2062,16 @@
 			(type default)
 		)
 		(uuid "4906b930-ac3c-41c5-8c2c-11891eda6633")
+	)
+	(wire
+		(pts
+			(xy 72.39 43.18) (xy 72.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490718cd-9c58-42c4-913d-be7edf248359")
 	)
 	(wire
 		(pts
@@ -1987,26 +2122,6 @@
 			(type default)
 		)
 		(uuid "5a41701e-abfb-4773-8a59-0e8089c20c16")
-	)
-	(wire
-		(pts
-			(xy 87.63 31.75) (xy 87.63 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ddc55d7-b1d4-4dcb-a7bb-5892d15d1d4b")
-	)
-	(wire
-		(pts
-			(xy 72.39 39.37) (xy 87.63 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6013c85d-2a07-4032-b544-cd7a98e768da")
 	)
 	(wire
 		(pts
@@ -2240,16 +2355,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 29.21) (xy 90.17 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd029504-6257-4e95-b6f3-709e5d0916dc")
-	)
-	(wire
-		(pts
 			(xy 101.6 88.9) (xy 101.6 85.09)
 		)
 		(stroke
@@ -2270,16 +2375,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 41.91) (xy 90.17 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2db30fa-9469-46c7-964e-ec4e2cb26b82")
-	)
-	(wire
-		(pts
 			(xy 251.46 135.89) (xy 252.73 135.89)
 		)
 		(stroke
@@ -2290,16 +2385,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 39.37) (xy 87.63 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd98e7fc-d730-49fb-9250-96248b95ba6d")
-	)
-	(wire
-		(pts
 			(xy 262.89 110.49) (xy 262.89 113.03)
 		)
 		(stroke
@@ -2307,16 +2392,6 @@
 			(type default)
 		)
 		(uuid "dfb5a748-c965-4833-8c9f-a8676ca71ad8")
-	)
-	(wire
-		(pts
-			(xy 90.17 29.21) (xy 90.17 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e39b8390-efbf-4aa0-bc03-83bab7e8238a")
 	)
 	(wire
 		(pts
@@ -2337,16 +2412,6 @@
 			(type default)
 		)
 		(uuid "e6d8a3a4-8325-4643-9ba3-4ae5b0708e1a")
-	)
-	(wire
-		(pts
-			(xy 87.63 34.29) (xy 90.17 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb5ec41d-198c-4a58-8617-d8d0c42d8e8e")
 	)
 	(wire
 		(pts
@@ -2438,7 +2503,7 @@
 	)
 	(rectangle
 		(start 13.97 62.23)
-		(end 116.84 115.57)
+		(end 147.32 115.57)
 		(stroke
 			(width 0)
 			(type default)
@@ -2447,6 +2512,18 @@
 			(type none)
 		)
 		(uuid c8ac1e61-92d3-4c93-9c5a-a9dcea783971)
+	)
+	(rectangle
+		(start 116.84 67.31)
+		(end 146.05 114.3)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ccc4e2a1-7fc6-43c0-947f-54e925fd9aa7)
 	)
 	(rectangle
 		(start 241.3 102.87)
@@ -2513,6 +2590,24 @@
 			)
 		)
 		(uuid "386c33d6-2917-4ca0-84e2-8ca5da20ab5f")
+	)
+	(text_box "Buttons"
+		(exclude_from_sim no)
+		(at 116.84 67.31 0)
+		(size 29.21 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6106d212-1f54-4bcd-82e8-72f6c7211f6a")
 	)
 	(text_box "HC-08 Bluetooth Module"
 		(exclude_from_sim no)
@@ -2652,6 +2747,28 @@
 			)
 		)
 	)
+	(global_label "Button2"
+		(shape input)
+		(at 72.39 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "252ea1b9-3c64-4fd3-b4aa-50f0a2276845")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.7531 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C0_SCL"
 		(shape bidirectional)
 		(at 35.56 80.01 0)
@@ -2665,6 +2782,28 @@
 		(uuid "25f22f4c-26dd-4af8-ab59-81f90391978f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 48.4255 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button1"
+		(shape output)
+		(at 134.62 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27843314-1b3a-44d3-a7e7-203287483f8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.9831 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,6 +2936,28 @@
 		(uuid "3e428c2f-46f5-49a4-9050-036ff5bb43d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 82.776 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button2"
+		(shape output)
+		(at 134.62 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4202870e-4503-47cb-a9f8-c246806361c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.9831 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,6 +3209,28 @@
 			)
 		)
 	)
+	(global_label "Button1"
+		(shape input)
+		(at 72.39 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2b13ce4-0cca-4e44-b783-f87a4a4a651e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.7531 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C1_SDA"
 		(shape bidirectional)
 		(at 101.6 77.47 0)
@@ -3196,6 +3379,73 @@
 			(project "imu"
 				(path "/21d9427f-2694-4e1d-b24f-73740c8acfc9"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 77.47 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1397c763-a8d9-4de2-9011-f0300aebb8bf")
+		(property "Reference" "J9"
+			(at 80.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Breakout-Header-01x04"
+			(at 90.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 77.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98699c6d-ffba-46b2-bc74-5fe55b711cd6")
+		)
+		(pin "2"
+			(uuid "20e69f69-0d90-4840-96df-c06327a6c313")
+		)
+		(instances
+			(project "imu"
+				(path "/21d9427f-2694-4e1d-b24f-73740c8acfc9"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -3530,6 +3780,74 @@
 			(project "imu"
 				(path "/21d9427f-2694-4e1d-b24f-73740c8acfc9"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 129.54 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b820baa-2a89-47be-8c78-e44c6ab4f971")
+		(property "Reference" "SW2"
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1ab74d2-42ed-468d-b34f-20e771bef4c9")
+		)
+		(pin "1"
+			(uuid "0d573860-c7f5-4264-872f-06904766b732")
+		)
+		(instances
+			(project "imu"
+				(path "/21d9427f-2694-4e1d-b24f-73740c8acfc9"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -4217,82 +4535,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 95.25 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "626b35d0-cd30-4519-b04e-ad812852a02d")
-		(property "Reference" "J8"
-			(at 96.52 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Breakout-Header-01x04"
-			(at 96.52 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 95.25 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 95.25 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a2f2e95-800e-4af4-9e07-84a1ccb30157")
-		)
-		(pin "4"
-			(uuid "97450054-102a-4563-8581-61449e26fbea")
-		)
-		(pin "2"
-			(uuid "85dc22c5-486a-4d89-a5b0-6e83607ffff1")
-		)
-		(pin "3"
-			(uuid "dcefbe29-314e-4aa6-bc7d-ff95f7799cf9")
-		)
-		(instances
-			(project "imu"
-				(path "/21d9427f-2694-4e1d-b24f-73740c8acfc9"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 269.24 153.67 0)
 		(unit 1)
@@ -4486,6 +4728,71 @@
 			(project "imu"
 				(path "/21d9427f-2694-4e1d-b24f-73740c8acfc9"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ee182d3-2def-478e-af33-7cacd4133cbb")
+		(property "Reference" "#PWR025"
+			(at 124.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87d4af4b-9633-407d-be79-8e39656129dd")
+		)
+		(instances
+			(project "imu"
+				(path "/21d9427f-2694-4e1d-b24f-73740c8acfc9"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5178,6 +5485,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 41.91 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bce69739-dcf6-43e8-b965-23ed87dfeb43")
+		(property "Reference" "J8"
+			(at 39.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Breakout-Header-01x04"
+			(at 29.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 41.91 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 41.91 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5abdfff-8e8d-4b7d-bfba-9ff828e90b8f")
+		)
+		(pin "4"
+			(uuid "356337e3-9b6f-41f2-95cf-493b5b5e3dd7")
+		)
+		(pin "2"
+			(uuid "febfc1c7-1e17-4444-af82-3ed20b18bb42")
+		)
+		(pin "3"
+			(uuid "c6fa95c1-2b48-414f-827c-9e4781421ff0")
+		)
+		(instances
+			(project "imu"
+				(path "/21d9427f-2694-4e1d-b24f-73740c8acfc9"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d07a22eb-5eb8-47cc-a5e6-60394fb1667b")
+		(property "Reference" "#PWR026"
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aeb6ee30-e49f-43c3-97ad-268d2380f3d7")
+		)
+		(instances
+			(project "imu"
+				(path "/21d9427f-2694-4e1d-b24f-73740c8acfc9"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 104.14 82.55 0)
 		(unit 1)
@@ -5635,32 +6080,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 41.91 34.29 0)
+		(lib_id "Switch:SW_Push")
+		(at 129.54 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f183ef7b-2887-4290-b7fe-02185ebcfb95")
-		(property "Reference" "J9"
-			(at 39.37 34.29 0)
+		(fields_autoplaced yes)
+		(uuid "f7bb8ffb-90a6-4c7c-b5a2-f56dce285965")
+		(property "Reference" "SW1"
+			(at 129.54 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Breakout-Header-01x04"
-			(at 29.21 36.83 0)
+		(property "Value" "SW_Push"
+			(at 129.54 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 41.91 34.29 0)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 129.54 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,7 +6115,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 34.29 0)
+			(at 129.54 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,31 +6123,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 41.91 34.29 0)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 129.54 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "5dea4477-4056-418d-bb4b-b60b21a661e5")
-		)
-		(pin "4"
-			(uuid "2b1793d7-eb8d-4ecb-9a4e-f827b657652c")
 		)
 		(pin "2"
-			(uuid "2d36951f-8ba5-4a3a-885f-75dd27f34386")
+			(uuid "680d28be-0df6-4b9d-9f4e-e1f6eaf36a10")
 		)
-		(pin "3"
-			(uuid "451e7138-473b-4713-953c-f2adc163bef9")
+		(pin "1"
+			(uuid "0182f1fe-5759-4b94-9fd9-1ea2feb914e3")
 		)
 		(instances
 			(project "imu"
 				(path "/21d9427f-2694-4e1d-b24f-73740c8acfc9"
-					(reference "J9")
+					(reference "SW1")
 					(unit 1)
 				)
 			)

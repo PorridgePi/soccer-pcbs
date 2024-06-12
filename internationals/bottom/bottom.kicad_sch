@@ -7,7 +7,7 @@
 	(title_block
 		(title "Bottom Plate")
 		(date "2024-06-13")
-		(rev "1.5.0")
+		(rev "1.6.0")
 		(company "Zhou Yikun & Zachary Ang")
 		(comment 1 "RoboCup Junior Soccer Open 2024")
 	)
@@ -5440,24 +5440,24 @@
 			)
 		)
 	)
-	(global_label "TEMT12"
+	(global_label "TEMT8"
 		(shape input)
-		(at 154.94 36.83 0)
+		(at 116.84 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "09fa32f9-7bb6-4142-b2d2-8740320f632f")
+		(uuid "08dfa3bb-79e1-411a-bb11-579c397533a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.8798 36.83 0)
+			(at 108.1097 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5502,6 +5502,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TEMT6"
+		(shape input)
+		(at 116.84 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f67c58f-a766-4e48-9bcc-525ea15dde9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.1097 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TEMT1"
+		(shape input)
+		(at 116.84 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1056d63a-de17-4a29-a3a6-0b19056fd80d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.1097 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5572,28 +5616,6 @@
 			)
 		)
 	)
-	(global_label "TEMT6"
-		(shape input)
-		(at 116.84 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2b7bca42-1d64-41d9-806b-9069a9ac9640")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.1097 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TEMT2"
 		(shape output)
 		(at 38.1 27.94 0)
@@ -5612,6 +5634,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TEMT2"
+		(shape input)
+		(at 116.84 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3811cd86-f296-46f8-b364-02a78df68e4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.1097 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5651,6 +5695,28 @@
 		(uuid "40b55235-cbe3-4a42-b910-3bdddbe8461e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 105.8492 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TEMT5"
+		(shape input)
+		(at 116.84 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42c0e928-ecdc-4e28-9e7f-703f0ac4320d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.1097 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,28 +5766,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TEMT2"
-		(shape input)
-		(at 116.84 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "47eed178-b6b4-4e02-a0a0-9716321b8d6c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.1097 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5836,28 +5880,6 @@
 			)
 		)
 	)
-	(global_label "TEMT9"
-		(shape input)
-		(at 116.84 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5ea53089-5bcd-423d-9f81-bf1d4af4cf47")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.1097 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO4"
 		(shape bidirectional)
 		(at 116.84 29.21 180)
@@ -5898,50 +5920,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TEMT1"
-		(shape input)
-		(at 116.84 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "75a16ef7-a765-4aff-9e6e-ff93d73c3f5d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.1097 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TEMT4"
-		(shape input)
-		(at 116.84 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7b3759a2-6441-46b7-87ab-e261c0cc5fcb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.1097 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6012,28 +5990,6 @@
 			)
 		)
 	)
-	(global_label "TEMT8"
-		(shape input)
-		(at 116.84 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "904df285-1366-442b-b377-950b27b17d95")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.1097 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TEMT6"
 		(shape output)
 		(at 38.1 53.34 0)
@@ -6047,28 +6003,6 @@
 		(uuid "988c9253-d959-432c-b7b7-4d95bf5da9b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 46.8303 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TEMT10"
-		(shape input)
-		(at 154.94 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "99f9323b-9887-444a-8667-2a4b9fc483e2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.8798 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,6 +6030,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TEMT7"
+		(shape input)
+		(at 116.84 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2c5e8ae-cef3-4d61-a744-d428c573604d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.1097 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6210,9 +6166,9 @@
 			)
 		)
 	)
-	(global_label "TEMT7"
+	(global_label "TEMT4"
 		(shape input)
-		(at 116.84 57.15 180)
+		(at 116.84 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6220,9 +6176,31 @@
 			)
 			(justify right)
 		)
-		(uuid "ba1e4a34-81c1-4bee-b228-751e0e1afe06")
+		(uuid "ba81509c-ca65-4f06-98ab-b49b5fa10073")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.1097 57.15 0)
+			(at 108.1097 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TEMT9"
+		(shape input)
+		(at 116.84 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd53a7f1-4746-439f-8729-061423cb4aeb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.1097 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6320,28 +6298,6 @@
 			)
 		)
 	)
-	(global_label "TEMT5"
-		(shape input)
-		(at 116.84 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e12f0daf-f30a-4725-950a-03a1af4e4df3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.1097 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO37"
 		(shape bidirectional)
 		(at 254 36.83 0)
@@ -6360,28 +6316,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TEMT3"
-		(shape input)
-		(at 116.84 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e3d17643-b03d-4073-aafb-72d8598936f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.1097 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6474,6 +6408,28 @@
 			)
 		)
 	)
+	(global_label "TEMT12"
+		(shape input)
+		(at 154.94 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee865af5-5d1b-460a-a10e-ff3dd9ff661f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.8798 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TEMT3"
 		(shape output)
 		(at 54.61 27.94 0)
@@ -6487,6 +6443,28 @@
 		(uuid "eff8976e-629c-4669-8ec7-9997dd9d4d5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 63.3403 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TEMT10"
+		(shape input)
+		(at 154.94 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f09bd6b4-0d2e-4b87-b917-6d4f1c6df6f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.8798 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6514,6 +6492,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TEMT3"
+		(shape input)
+		(at 116.84 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f73c9a45-4798-4940-8314-f7bc954bf198")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.1097 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

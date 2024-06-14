@@ -1,6 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Panelization")(type "KiCad")(uri "${KIPRJMOD}/../libs/Footprints/Panelization.pretty")(options "")(descr ""))
-  (lib (name "PorridgePi-Personal")(type "KiCad")(uri "${KIPRJMOD}/../libs/Footprints/PorridgePi-Personal.pretty")(options "")(descr ""))
-  (lib (name "Third-Party")(type "KiCad")(uri "${KIPRJMOD}/../libs/Footprints/Third-Party.pretty")(options "")(descr ""))
+  (lib (name "Panelization")(type "KiCad")(uri "${KIPRJMOD}/../../libs/Footprints/Panelization.pretty")(options "")(descr ""))
+  (lib (name "PorridgePi-Personal")(type "KiCad")(uri "${KIPRJMOD}/../../libs/Footprints/PorridgePi-Personal.pretty")(options "")(descr ""))
+  (lib (name "Third-Party")(type "KiCad")(uri "${KIPRJMOD}/../../libs/Footprints/Third-Party.pretty")(options "")(descr ""))
 )

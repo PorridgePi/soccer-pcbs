@@ -3401,7 +3401,7 @@
 				)
 			)
 		)
-		(property "Value" "Breakout-Header-01x04"
+		(property "Value" "Breakout-Header-01x02"
 			(at 90.17 40.64 0)
 			(effects
 				(font

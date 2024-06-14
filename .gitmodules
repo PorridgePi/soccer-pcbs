@@ -2,5 +2,5 @@
 	path = lib
 	url = https://github.com/PorridgePi/KiCAD-Libs.git
 [submodule "libs"]
-	path = libs
+	path = internationals/libs
 	url = https://github.com/PorridgePi/KiCAD-Libs.git

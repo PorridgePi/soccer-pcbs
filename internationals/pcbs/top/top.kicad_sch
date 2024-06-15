@@ -7238,7 +7238,7 @@
 				)
 			)
 		)
-		(property "Value" "JST-XH-B4B"
+		(property "Value" "JST-XH-S4B"
 			(at 234.315 121.92 0)
 			(effects
 				(font
@@ -7246,7 +7246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
 			(at 233.68 127 0)
 			(effects
 				(font
@@ -8849,7 +8849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89197bcf-0d6c-47db-a48e-8fe796134ed4")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 39.37 146.05 0)
 			(effects
 				(font
@@ -8901,7 +8901,7 @@
 		(instances
 			(project "top"
 				(path "/d681ea98-d857-49ba-b30b-b95645451bdb"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -8917,7 +8917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f84c5a6-3289-4108-b0ba-a67c7b7adde0")
-		(property "Reference" "SW1"
+		(property "Reference" "SW10"
 			(at 88.9 171.45 0)
 			(effects
 				(font
@@ -8972,7 +8972,7 @@
 		(instances
 			(project "top"
 				(path "/d681ea98-d857-49ba-b30b-b95645451bdb"
-					(reference "SW1")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -9053,7 +9053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9538a5ac-bcb6-4fc9-9bd7-8bd1e3e294a9")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 39.37 132.08 0)
 			(effects
 				(font
@@ -9105,7 +9105,7 @@
 		(instances
 			(project "top"
 				(path "/d681ea98-d857-49ba-b30b-b95645451bdb"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)

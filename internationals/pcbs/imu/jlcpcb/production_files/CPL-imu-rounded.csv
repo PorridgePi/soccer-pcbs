@@ -1,1 +1,21 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,5V-JST-XH-B2B,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,58.0,-77.25,0.0,top
+J2,5V-JST-XH-B2B,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,75.0,-145.525,180.0,top
+J3,5V-JST-XH-B2B,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,58.0,-68.25,0.0,top
+J4,IMU-JST-XH-B4B,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,134.25,-77.5,0.0,top
+J5,BT-UART-JST-XH-B4B,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,69.75,-77.25,0.0,top
+J6,Top-UART-JST-XH-B2B,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,34.671012,-73.741255,68.0,top
+J7,Breakout-Header-01x04,PinHeader_1x04_P2.54mm_Vertical,143.31,-121.6,90.0,top
+J8,Breakout-Header-01x04,PinHeader_1x04_P2.54mm_Vertical,143.31,-124.2,-90.0,top
+J9,Breakout-Header-01x02,PinHeader_1x02_P2.54mm_Vertical,115.5,-123.495,0.0,top
+R1,R,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,108.46,-113.5,180.0,top
+R2,R,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,108.46,-111.0,180.0,top
+R3,R,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,133.0,-70.96,90.0,top
+R4,R,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,129.85,-70.96,90.0,top
+SW1,SW_Push,SW_PUSH_6mm,56.75,-132.25,90.0,top
+SW2,SW_Push,SW_PUSH_6mm,143.25,-132.25,-90.0,top
+T1,TFmini-Plus-JST-GH-01x04,JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical,110.0,-81.0,0.0,top
+T2,TFmini-Plus-JST-GH-01x04,JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical,119.0,-110.0,-90.0,top
+T3,TFmini-Plus-JST-GH-01x04,JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical,90.0,-119.0,180.0,top
+T4,TFmini-Plus-JST-GH-01x04,JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical,81.0,-90.0,90.0,top
+U1,CN3903 3.3V,CN3903,91.103,-147.7817,0.0,top

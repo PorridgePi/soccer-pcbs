@@ -234,7 +234,7 @@
 		(path "/65b63a7e-96bc-4b04-925d-b3fc240a2a56")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.85 -2.75)
 			(end -2.85 -1.5)
@@ -692,7 +692,7 @@
 		(path "/32430d71-3a0a-44c3-acfe-10a26453a5dd")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.85 -2.75)
 			(end -2.85 -1.5)
@@ -1337,7 +1337,7 @@
 		(path "/6c7c591b-379c-4b49-8ecf-c4f4b3551fc0")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -17.78 19.3)
 			(end 17.78 19.3)
@@ -7990,7 +7990,7 @@
 		(path "/d9deb581-d8ed-4115-acc0-81dc23dbf126")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.85 -2.75)
 			(end -2.85 -1.5)
@@ -8736,7 +8736,7 @@
 		(path "/d40aff2f-9ea9-4c53-b42a-1df7f1d753c4")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.6 -2.75)
 			(end -2.85 -2.75)
@@ -9801,7 +9801,7 @@
 		(path "/f8d94083-21a7-4eff-baff-974a21fb8939")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 19.11)
 			(end 1.33 19.11)
@@ -10133,7 +10133,7 @@
 		(path "/89197bcf-0d6c-47db-a48e-8fe796134ed4")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 5.5 -1)
 			(end 1 -1)
@@ -10493,7 +10493,7 @@
 		(path "/08bfbcd8-5604-4604-aa12-ad3dcf4ab9ec")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -11262,7 +11262,7 @@
 		(path "/c0172279-c428-42c8-8e65-554874a6ec1a")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.11 49.69)
 			(end 5.29 49.69)
@@ -11406,7 +11406,7 @@
 		)
 		(fp_arc
 			(start 19.42 49.32)
-			(mid 19.213497 49.588778)
+			(mid 19.213487 49.588772)
 			(end 18.89 49.69)
 			(stroke
 				(width 0.12)
@@ -12134,7 +12134,7 @@
 		)
 		(fp_arc
 			(start 18.89 -1.43)
-			(mid 19.213502 -1.328793)
+			(mid 19.213484 -1.328785)
 			(end 19.42 -1.06)
 			(stroke
 				(width 0.12)
@@ -12145,7 +12145,7 @@
 		)
 		(fp_arc
 			(start 19.42 49.32)
-			(mid 19.213497 49.588778)
+			(mid 19.213487 49.588772)
 			(end 18.89 49.69)
 			(stroke
 				(width 0.12)
@@ -16826,7 +16826,7 @@
 		(path "/cf30af7f-fc8a-48b4-afb1-f951bc9a35aa")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.85 -2.75)
 			(end -2.85 -1.5)
@@ -17284,7 +17284,7 @@
 		(path "/f607a24a-ff06-4647-a21d-6cf34415cb0c")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.85 -2.75)
 			(end -2.85 -1.5)
@@ -18152,7 +18152,7 @@
 		(path "/6c83155f-4541-4259-9ba4-3febad8d3476")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 6.41)
@@ -18431,7 +18431,7 @@
 		(path "/b791889c-7998-494b-96fc-0ad6ac92d979")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 9.922 9.525001) (xy 7.382 6.985) (xy 9.922 4.445)
@@ -47217,7 +47217,7 @@
 		(path "/4c1801d3-80aa-4f7f-bbdd-812fa20c0083")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.56 3.51)
 			(end 5.06 3.51)
@@ -48148,7 +48148,7 @@
 		(path "/8802c47c-d9de-46a3-ad0d-e659bcc30b2a")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 4.064 -0.889)
 			(end 3.429 -0.889)
@@ -50369,7 +50369,7 @@
 		(path "/f3f3cad2-8cbe-43d4-8474-447503f9fe00")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.85 -2.75)
 			(end -2.85 -1.5)
@@ -51200,7 +51200,7 @@
 		(path "/9538a5ac-bcb6-4fc9-9bd7-8bd1e3e294a9")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 5.5 -1)
 			(end 1 -1)
@@ -52102,7 +52102,7 @@
 		(path "/8f84c5a6-3289-4108-b0ba-a67c7b7adde0")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.85 1.5)
 			(end -2.85 2.75)
@@ -52679,7 +52679,7 @@
 		(path "/96e8a69d-51b6-4204-a7bc-e58d3f61c934")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 10.06 2.46)
 			(end 10.06 -3.51)
@@ -53166,7 +53166,7 @@
 		(path "/7bdba0ff-7022-40ab-ab01-bf4779feea68")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.85 2.75)
 			(end -1.6 2.75)
@@ -53856,7 +53856,7 @@
 		(path "/d5c88536-f909-425c-9cba-53cf5aa0374f")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 5.06 2.46)
 			(end 5.06 -3.51)
@@ -54498,7 +54498,7 @@
 		(path "/2d9f7278-12d1-4553-b3e4-46459162ad0e")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 5.06 2.46)
 			(end 5.06 -3.51)
@@ -55307,7 +55307,7 @@
 		(path "/9c5d397b-fc60-48bf-affc-26c35dbf7ae7")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 10.06 2.46)
 			(end 10.06 -3.51)
@@ -55794,7 +55794,7 @@
 		(path "/1c7148da-b506-4aad-86ee-a6210f11e5d5")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 10.06 2.41)
 			(end 10.06 -9.31)
@@ -56864,7 +56864,7 @@
 		(path "/683bf015-52db-4222-a421-c9f0d2cf093c")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 10.06 2.46)
 			(end 10.06 -3.51)
@@ -57351,7 +57351,7 @@
 		(path "/316c4f2f-ed1f-4a4e-ace1-e9d3fb4b7a55")
 		(sheetname "Root")
 		(sheetfile "top.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 10.06 2.46)
 			(end 10.06 -3.51)
@@ -72219,15 +72219,15 @@
 				(xy 66.29754 100.044989) (xy 66.291561 99.975376) (xy 66.324166 99.91358) (xy 66.340199 99.899686)
 				(xy 66.504792 99.780104) (xy 66.655104 99.629792) (xy 66.655106 99.629788) (xy 66.655109 99.629786)
 				(xy 66.713661 99.549193) (xy 66.780051 99.457816) (xy 66.788005 99.442206) (xy 66.800235 99.418205)
-				(xy 66.848209 99.367409) (xy 66.910719 99.3505) (xy 70.920943 99.3505) (xy 71.420943 99.3505) (xy 74.673126 99.3505)
-				(xy 74.694668 99.3505) (xy 74.694702 99.350509) (xy 74.74604 99.350508) (xy 74.74604 99.35051) (xy 74.961832 99.350508)
-				(xy 75.392317 99.319717) (xy 75.819508 99.258294) (xy 75.819513 99.258293) (xy 76.241225 99.166553)
-				(xy 76.296198 99.150411) (xy 76.65533 99.044959) (xy 77.059703 98.894135) (xy 77.452285 98.714848)
-				(xy 77.831077 98.508011) (xy 78.194149 98.274679) (xy 78.211838 98.261437) (xy 78.539642 98.016047)
-				(xy 78.555551 98.002262) (xy 78.86582 97.733413) (xy 79.018409 97.580825) (xy 79.043669 97.555565)
-				(xy 81.566759 95.032474) (xy 81.575757 95.024318) (xy 81.653551 94.960474) (xy 81.673751 94.946976)
-				(xy 81.757096 94.902427) (xy 81.779541 94.89313) (xy 81.869979 94.865696) (xy 81.8938 94.860957)
-				(xy 81.915497 94.85882) (xy 81.98414 94.871838) (xy 81.993623 94.87723) (xy 81.997737 94.879815)
+				(xy 66.848209 99.367409) (xy 66.910719 99.3505) (xy 70.920943 99.3505) (xy 71.420943 99.3505) (xy 71.579057 99.3505)
+				(xy 74.673126 99.3505) (xy 74.694668 99.3505) (xy 74.694702 99.350509) (xy 74.74604 99.350508) (xy 74.74604 99.35051)
+				(xy 74.961832 99.350508) (xy 75.392317 99.319717) (xy 75.819508 99.258294) (xy 75.819513 99.258293)
+				(xy 76.241225 99.166553) (xy 76.296198 99.150411) (xy 76.65533 99.044959) (xy 77.059703 98.894135)
+				(xy 77.452285 98.714848) (xy 77.831077 98.508011) (xy 78.194149 98.274679) (xy 78.211838 98.261437)
+				(xy 78.539642 98.016047) (xy 78.555551 98.002262) (xy 78.86582 97.733413) (xy 79.018409 97.580825)
+				(xy 79.043669 97.555565) (xy 81.566759 95.032474) (xy 81.575757 95.024318) (xy 81.653551 94.960474)
+				(xy 81.673751 94.946976) (xy 81.757096 94.902427) (xy 81.779541 94.89313) (xy 81.869979 94.865696)
+				(xy 81.8938 94.860957) (xy 81.915497 94.85882) (xy 81.98414 94.871838) (xy 81.993623 94.87723) (xy 81.997737 94.879815)
 				(xy 81.997738 94.879816) (xy 82.039998 94.90637) (xy 82.150475 94.975788) (xy 82.320745 95.035368)
 				(xy 82.32075 95.035369) (xy 82.499996 95.055565) (xy 82.5 95.055565) (xy 82.500004 95.055565) (xy 82.679249 95.035369)
 				(xy 82.679252 95.035368) (xy 82.679255 95.035368) (xy 82.849522 94.975789) (xy 83.002262 94.879816)
